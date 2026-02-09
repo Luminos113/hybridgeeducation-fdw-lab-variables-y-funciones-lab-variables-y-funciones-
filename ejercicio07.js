@@ -1,6 +1,16 @@
 // Ejercicio 7: Comprobación de Número Par
 // Declara una función llamada "esPar" que acepte un parámetro "numero" y retorne verdadero si el número es par, de lo contrario falso
 
+
+function esPar(a){
+ 
+if( a%2 == 0){
+    return true;
+
+}
+return false;
+
+}
 //escribe tu función aquí. Recuerda que el nombre de la función debe ser exactamente "esPar"
 
 
@@ -8,3 +18,5 @@
 module.exports = {
     esPar
 };
+
+

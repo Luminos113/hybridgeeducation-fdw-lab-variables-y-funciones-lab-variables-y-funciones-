@@ -6,10 +6,25 @@
 // invertirCadena("anita lava la tina") // debe retornar "anit al aval atina"
 
 function invertirCadena(cadena) {
-    // Escribe tu código aquí
+    let cadena_invertida = ""
+    
+    for(i = cadena.length-1;  i>=0; i--){
+        //console.log(cadena[i])
+        cadena_invertida += cadena[i]
+
+    }
+
+
+
+    return cadena_invertida
+    
+
 }
 
+
 // Exporta la función para que pueda ser utilizada en las pruebas
-module.exports = {
+/*module.exports = {
     invertirCadena
-};
+};*/
+
+console.log(invertirCadena("aqui andamos por la vida "))
